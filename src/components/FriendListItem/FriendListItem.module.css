@@ -1,0 +1,16 @@
+.infoWrap {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.name {
+  font-size: 22px;
+}
+
+.status {
+  color: red;
+}
+
+.isOnline {
+  color: green;
+}

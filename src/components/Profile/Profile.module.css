@@ -1,0 +1,64 @@
+.item {
+  max-width: 300px;
+  margin: auto;
+  border: 2px solid black;
+  border-radius: 5px;
+  background-color: #f4f4f9;
+  margin-bottom: 30px;
+}
+
+.userInfo {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  text-align: center;
+  padding: 10px;
+}
+
+.userImage {
+  border-radius: 50%;
+  width: 100px;
+  background-color: rgb(65, 65, 65);
+}
+
+.userName {
+  margin: 8px auto;
+  font-size: 22px;
+  font-weight: 700;
+}
+
+.userContact {
+  margin: 0;
+  font-weight: normal;
+  color: gray;
+}
+
+.stats {
+  margin: 0;
+  display: flex;
+  justify-content: space-around;
+  border-top: 2px solid gray;
+  background-color: rgb(175, 175, 175);
+}
+
+.statsItem {
+  flex: calc((100% - (2px * 2)) / 3);
+
+  display: flex;
+  flex-direction: column;
+  row-gap: 5px;
+
+  text-align: center;
+
+  padding: 14px 7px;
+}
+
+.statsItem:not(:last-child) {
+  border-right: 2px solid gray;
+}
+
+.statsValue {
+  font-weight: 700;
+}
